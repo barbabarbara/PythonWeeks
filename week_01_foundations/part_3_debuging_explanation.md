@@ -1,4 +1,3 @@
-````markdown
 # Task 3 — Debug Something: Broken Calculator Code
 
 ## Status
@@ -164,4 +163,3 @@ else:
 The main problems in the broken code are that the input values are stored as strings, only addition is supported, `result` may be undefined, division by zero is not handled, and invalid operations are not handled.
 
 The corrected version converts the input values using `float()`, supports all four arithmetic operations, checks for division by zero, and displays a clear message when the user enters an invalid operation.
-````
